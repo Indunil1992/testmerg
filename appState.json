@@ -1,0 +1,107 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "31d2e878-8fe0-48e9-a3a2-aa655381be74": {
+        "id": "31d2e878-8fe0-48e9-a3a2-aa655381be74",
+        "parent": null,
+        "name": "testmerg",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "8871e480-038f-4d09-b92f-0180f3d5ff10"
+        ],
+        "isRemovable": false,
+        "filePath": "testmerg"
+      },
+      "8871e480-038f-4d09-b92f-0180f3d5ff10": {
+        "id": "8871e480-038f-4d09-b92f-0180f3d5ff10",
+        "parent": "31d2e878-8fe0-48e9-a3a2-aa655381be74",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testmerg/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast2hirutestany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "31d2e878-8fe0-48e9-a3a2-aa655381be74",
+    "openFiles": [
+      "8871e480-038f-4d09-b92f-0180f3d5ff10"
+    ],
+    "currentFileId": "8871e480-038f-4d09-b92f-0180f3d5ff10",
+    "resources": {
+      "apigusEast2hirutestany": {
+        "name": "apigusEast2hirutestany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-2",
+          "apiMode": 1,
+          "apiName": "hirutest",
+          "apiId": "q9inxic11l",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "19n7i42c75",
+          "existingResources": {
+            "/": "19n7i42c75"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/",
+          "resourceName": "",
+          "resourceId": "19n7i42c75",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "Test",
+          "stageDeploymentId": "0kj5ld",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "testmerg",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-2",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1581496987402
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testmerg",
+      "url": "https://github.com/Indunil1992/testmerg"
+    }
+  }
+}
